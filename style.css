@@ -1,0 +1,84 @@
+body {
+  font-family: Taoma;
+  font-size: 13px;
+  width: 1000px;
+  margin: 0px auto;
+}
+.menu_top {
+  background-color: #141414;
+  height: 40px;
+}
+
+.banner {
+  height: auto;
+  width: 1000px;
+}
+.main .left {
+  width: 700px;
+  float: left;
+  min-height: 400px;
+}
+.main .right {
+  background-color: blue;
+  width: 300px;
+  float: left;
+  min-height: 400px;
+}
+.footer {
+  background-color: black;
+  width: 1000px;
+  text-align: center;
+  height: 60px;
+  color: white;
+  clear: left;
+  line-height: 60px;
+}
+.menu_top ul {
+  margin: 0px;
+  padding: 0px;
+}
+.menu_top ul li {
+  list-style: none;
+  float: left;
+}
+.menu_top ul li a {
+  text-decoration: none;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  padding: 0px 20px 0px 20px;
+  border-right: 1px solid #ccc;
+}
+.menu_top ul li a.active {
+  background-color: #1949b5;
+}
+.main .banner img {
+  width: 1000px;
+}
+.main .left ul {
+  padding: 0px;
+  margin: 0px;
+}
+.main .left ul li {
+  padding: 0px;
+  list-style: none;
+  border-bottom: 2px solid #ccc;
+  float: left;
+  margin-bottom: 20px;
+}
+.main .left ul li img {
+  float: left;
+  margin-right: 10px;
+  clear: left;
+  margin-bottom: 20px;
+}
+.main .left ul li a {
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  margin-top: 0px;
+}
+.main {
+  margin-top: 10px;
+}

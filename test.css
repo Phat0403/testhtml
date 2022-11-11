@@ -1,0 +1,117 @@
+body {
+  font-size: 14px;
+  font-family: Tahoma;
+  width: 1000px;
+  margin: 0px auto;
+}
+.menu_top {
+  width: 1000px;
+  height: 40px;
+  background-color: rgb(219, 32, 188);
+}
+.menu_top ul {
+  margin: 0px;
+  padding: 0px;
+}
+.menu_top ul li {
+  list-style: none;
+  float: left;
+}
+.menu_top ul li a {
+  text-decoration: none;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  color: rgb(59, 4, 47);
+  padding: 0px 20px 0px 20px;
+  border-right: 2px solid #ccc;
+}
+.menu_top ul li a.active {
+  background-color: rgb(175, 175, 220);
+}
+.banner {
+  width: 1000px;
+  height: 300px;
+  background: rgb(103, 95, 95);
+  margin-bottom: 20px;
+}
+.main {
+  width: 1000px;
+  margin-top: 10px;
+}
+.main .left {
+  width: 700px;
+  min-height: 600px;
+  float: left;
+}
+.main .right {
+  width: 300px;
+  height: auto;
+  float: right;
+}
+.main .left ul {
+  padding: 0px;
+  margin: 0px;
+}
+.main .left ul li {
+  border-bottom: 2px solid rgb(80, 78, 78);
+  margin-bottom: 20px;
+  padding: 0px;
+  list-style: none;
+  float: left;
+}
+.main .left ul li img {
+  float: left;
+  margin-right: 10px;
+  clear: left;
+  margin-bottom: 20px;
+}
+.main .left ul li h2 {
+  font-size: 16px;
+  margin-top: 0px;
+}
+.main .left ul li a {
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+.main .right .menu_right ul {
+  margin-top: -15px;
+  margin-left: 0px;
+  padding: 0px;
+}
+.main .right .menu_right ul li {
+  list-style: none;
+}
+.main .right .menu_right h3 {
+  height: 40px;
+  background: #a3941d
+    url("https://icons.iconarchive.com/icons/icons8/windows-8/32/Very-Basic-Menu-icon.png")
+    no-repeat 10px center;
+  text-align: center;
+  line-height: 40px;
+  color: #ccc;
+  margin-top: 0px;
+}
+.main .right .menu_right ul a {
+  text-decoration: none;
+  display: block;
+  height: 40px;
+  line-height: 45px;
+  border-bottom: 1px solid #ccc;
+  background: url("https://icons.iconarchive.com/icons/icons8/ios7/32/Arrows-Forward-icon.png")
+    no-repeat 2px;
+  text-indent: 35px;
+  color: #878787;
+  font-size: 14px;
+}
+.footer {
+  padding-bottom: 0px;
+  clear: left;
+  height: 50px;
+  width: 1000px;
+  background-color: black;
+}
+.main .right .menu_right ul a:hover {
+  color: #f3da20;
+}
